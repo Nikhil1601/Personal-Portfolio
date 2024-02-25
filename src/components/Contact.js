@@ -26,7 +26,7 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-    let response = await fetch("https://personal-portfolio-gray-gamma.vercel.app/contact", {
+    let response = await fetch("https://personal-portfolio-1.onrender.com/contact" {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
