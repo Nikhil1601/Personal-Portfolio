@@ -1,0 +1,13 @@
+.skill-intro p{
+    margin: 14px 0 14px 0;
+}
+.skill-intro li{
+    list-style: none;
+}
+.proj-imgbx img{
+    width:100%;
+    height:300px;
+}
+.proj-card-main a{
+    color:#fff;
+}
