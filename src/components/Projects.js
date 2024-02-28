@@ -39,7 +39,7 @@ export const Projects = () => {
     },
     {
       title: "Human emotion recognition system",
-      description: "Developing an application to assist psychiatrists to detect the current emotion of the human using facial recognition and Bio-signals(psychological signals) like EEG and ECG. I will also try to expand it by developing a technique to detect the emotion of an animal",
+      description: "An application that uses harcascade frontal face data and cv2  to detect human emotion. It also contain gui for the purpose of emotion detection ",
       imgUrl: HERC,
       prjUrl:'https://github.com/Nikhil1601/Emotion_detection_using_ML',
     },
