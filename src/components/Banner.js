@@ -4,8 +4,8 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import fileSaver from 'file-saver';
-import Resume from './Resume.pdf';
+import fileSaver from 'file-saver';``
+import Resume from './Nikhil gautam resume.pdf';
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
