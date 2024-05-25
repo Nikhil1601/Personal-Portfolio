@@ -7,6 +7,7 @@ import cryptogeek from '../assets/img/Crypto_Geek.png';
 import HERC from '../assets/img/HERC-resized.jpg';
 import DAV from '../assets/img/DAV.png';
 import IMS from '../assets/img/IMS.avif'
+import BookShelf from '../assets/img/pixlr-image-generator-1b0fe4d0-be85-4efb-a48f-29299f84d8d1.png'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import SuperMarioGame from '../assets/img/Super-mario-game.png'
@@ -97,7 +98,13 @@ export const Projects = () => {
     description: "It's an application that I'm working on to implement the AI modules that I,m currenlty learning.",
     imgUrl: Aichatbot,
     prjUrl: "https://github.com/Nikhil1601/",
-  },];
+  },
+{
+  title:"Book shelf management app",
+  description:"MEAN stack app for book management: facilitates adding, updating, deleting, and categorizing books, providing a comprehensive solution for organizing and managing a bookshelf.",
+  imgUrl:BookShelf,
+  prjUrl:"https://github.com/Nikhil1601/Book-Shelf-Management-App"
+},];
 
   return (
     <section className="project" id="projects">
