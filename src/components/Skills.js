@@ -3,7 +3,7 @@ import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
-import { FaReact, FaPython, FaHtml5, FaCss3, FaJs, FaJava,FaNode } from 'react-icons/fa';
+import { FaReact, FaPython, FaHtml5, FaCss3, FaJs, FaJava,FaNode, FaAngular, FaNodeJs } from 'react-icons/fa';
 import { AiFillApi } from 'react-icons/ai';
 import { SiMongodb,  SiSolidity, SiEthereum, SiRedux,SiWeb3Dotjs,SiBlockchaindotcom ,SiExpress} from 'react-icons/si';
 import { TbSql } from "react-icons/tb";
@@ -91,9 +91,9 @@ export const Skills = () => {
         <img src={AIMLIcon} className="icon" style={logostyle}></img>
         <SiSolidity className="icon" style={logostyle}/>
         <SiEthereum className="icon" style={logostyle}/>
-      
+        <FaAngular className='icon' style={logostyle}/>
         <SiRedux className="icon" style={logostyle}/>
-        
+        <FaNodeJs className='icon' style={logostyle}/>
         <TbSql className="icon" style={logostyle}/>
         <SiWeb3Dotjs className="icon" style={logostyle}/>
         <SiBlockchaindotcom className="icon" style={logostyle}/>
